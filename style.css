@@ -1,0 +1,189 @@
+:root {
+    --polkesdo-green: #0a5d52;
+    --polkesdo-teal: #0d8a72;
+    --polkesdo-accent: #ffb703;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.top-bar {
+    background-color: #1a232a;
+    color: #d1d5db;
+    font-size: 0.825rem;
+}
+
+.hero-banner {
+    background: linear-gradient(
+        rgba(7, 59, 52, 0.75),
+        rgba(65, 182, 128, 0.75)
+    ),
+    url('images/Profile Kampus.png') no-repeat center center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 4.5rem 0 5.5rem 0;
+}
+
+.pill-tag {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    font-size: 0.75rem;
+    padding: 4px 14px;
+}
+
+/* ===================================================
+   STYLING NAVBAR & MASING-MASING LOGO
+   =================================================== */
+.navbar {
+    background-color: #f6f6f6 !important;
+}
+
+.brand-logo-full {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.brand-logo-blu {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+}
+
+.brand-logo-smart {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+.logo-divider {
+    height: 30px;
+    width: 1px;
+    background-color: #cccccc;
+    margin: 0 4px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2c5035;
+    padding: 0.5rem 1rem;
+    transition: color 0.2s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--polkesdo-teal);
+}
+
+/* ===================================================
+   STYLING BAR HEADER KATEGORI & CARD APLIKASI (SKETSA)
+   =================================================== */
+
+/* Header Kategori Panjang Horizontal */
+.category-header-bar {
+    background: linear-gradient(135deg, #0a5d52 0%, #0d8a72 100%);
+    color: #ffffff;
+    border-left: 5px solid var(--polkesdo-accent);
+}
+
+.category-icon-box {
+    width: 48px;
+    height: 48px;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+}
+
+/* Styling Card Aplikasi */
+.app-card {
+    transition: all 0.25s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.app-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(13, 138, 114, 0.12) !important;
+    border-color: var(--polkesdo-teal);
+}
+
+.app-icon-wrapper {
+    width: 44px;
+    height: 44px;
+}
+
+.app-title {
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+.app-card-link:hover .icon-arrow {
+    transform: translateX(3px);
+}
+
+.icon-arrow {
+    transition: transform 0.2s ease;
+}
+
+/* Pengumuman */
+.card-pengumuman {
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card-pengumuman:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+    border-color: var(--polkesdo-teal);
+}
+
+/* ===================================================
+   FLOATING WHATSAPP POP-UP STYLING
+   =================================================== */
+.wa-floating-container {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 1050;
+}
+
+.btn-whatsapp {
+    width: 58px;
+    height: 58px;
+    background-color: #25d366;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+    background-color: #1ebd56;
+    transform: scale(1.1);
+}
+
+/* Responsif Mobile */
+@media (max-width: 576px) {
+    .brand-logo-full {
+        height: 34px;
+    }
+    .brand-logo-blu {
+        height: 28px;
+    }
+    .brand-logo-smart {
+        height: 42px;
+        transform: scale(1.1);
+    }
+    .logo-divider {
+        height: 22px;
+    }
+    .wa-floating-container {
+        bottom: 15px;
+        right: 15px;
+    }
+    .btn-whatsapp {
+        width: 50px;
+        height: 50px;
+    }
+}

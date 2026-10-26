@@ -1,0 +1,402 @@
+{
+    "pengumuman_list": [
+        {
+            "judul": "Jadwal Kuliah",
+            "kategori": "Umum",
+            "tanggal": "2026-09-17",
+            "isi": "Kuliah di laksanakan pada tanggal 20 september 2026",
+            "link": ""
+        },
+        {
+            "kategori": "Pengumuman",
+            "tanggal": "2026-03-10",
+            "judul": "Jadwal Pengisian KRS Semester Genap",
+            "isi": "Pengisian KRS dapat dilakukan melalui portal siAkad mulai tanggal 15 Maret 2026.",
+            "link": "#"
+        }
+    ],
+    "kategori_layanan": [
+        {
+            "nama_kategori": "1. BAGIAN AKADEMIK",
+            "deskripsi_kategori": "Mengurus segala hal terkait perkuliahan & proses belajar-mengajar",
+            "icon_kategori": "bi-journal-bookmark-fill",
+            "aplikasi": [
+                {
+                    "nama": "SIPENMARU",
+                    "deskripsi": "sistem penerimaan mahasiswa baru",
+                    "link": "https:\/\/sipenmaru.poltekkes-manado.ac.id",
+                    "icon": "bi-5-square",
+                    "icon_color": "#0d8a72",
+                    "badge": "Mandatori",
+                    "views": 4
+                },
+                {
+                    "nama": "siAkad - Pengisian KRS",
+                    "deskripsi": "Pengisian KRS \/ Rencana Studi, pemilihan mata kuliah & SKS.",
+                    "icon": "bi-file-earmark-text",
+                    "icon_color": "#0d8a72",
+                    "badge": "Online",
+                    "url": "https:\/\/siakad.poltekkes-manado.ac.id",
+                    "views": 3421
+                },
+                {
+                    "nama": "Pengelolaan Nilai & Transkrip",
+                    "deskripsi": "Input nilai, rekapitulasi, arsip transkrip akademik.",
+                    "icon": "bi-bar-chart-line",
+                    "icon_color": "#0d8a72",
+                    "badge": "",
+                    "url": "#",
+                    "views": 890
+                },
+                {
+                    "nama": "Penjadwalan Kuliah & Ujian",
+                    "deskripsi": "Jadwal perkuliahan harian, UTS, dan UAS.",
+                    "icon": "bi-calendar-event",
+                    "icon_color": "#0d8a72",
+                    "badge": "",
+                    "url": "#",
+                    "views": 2100
+                },
+                {
+                    "nama": "Kurikulum & Mata Kuliah",
+                    "deskripsi": "Penyusunan & pemutakhiran struktur kurikulum.",
+                    "icon": "bi-book",
+                    "icon_color": "#0d8a72",
+                    "badge": "",
+                    "url": "#",
+                    "views": 430
+                },
+                {
+                    "nama": "Portal Wisuda & Yudisium",
+                    "deskripsi": "Proses yudisium, verifikasi ijazah, dan transkrip nilai.",
+                    "icon": "bi-mortarboard-fill",
+                    "icon_color": "#0d8a72",
+                    "badge": "Tahunan",
+                    "url": "#",
+                    "views": 1560
+                },
+                {
+                    "nama": "Layanan Surat Keterangan",
+                    "deskripsi": "Surat aktif kuliah, izin cuti, dan pindah prodi.",
+                    "icon": "bi-file-earmark-pdf",
+                    "icon_color": "#0d8a72",
+                    "badge": "",
+                    "url": "#",
+                    "views": 670
+                },
+                {
+                    "nama": "Penugasan Dosen Pengampu",
+                    "deskripsi": "Sistem penugasan mengajar & alokasi dosen.",
+                    "icon": "bi-person-badge",
+                    "icon_color": "#0d8a72",
+                    "badge": "Internal",
+                    "url": "#",
+                    "views": 310
+                }
+            ]
+        },
+        {
+            "nama_kategori": "2. BAGIAN KEMAHASISWAAN",
+            "deskripsi_kategori": "Mengurus hal-hal di luar akademik \u2014 kesejahteraan, pengembangan diri & kegiatan mahasiswa",
+            "icon_kategori": "bi-people-fill",
+            "aplikasi": [
+                {
+                    "nama": "Portal Beasiswa",
+                    "deskripsi": "Informasi, pendaftaran, seleksi, dan penyaluran beasiswa.",
+                    "icon": "bi-cash-coin",
+                    "icon_color": "#0284c7",
+                    "badge": "Populer",
+                    "url": "#",
+                    "views": 2890
+                },
+                {
+                    "nama": "Pembinaan Ormawa & UKM",
+                    "deskripsi": "Pengelolaan BEM, Himpunan, UKM, dan Organisasi Mahasiswa.",
+                    "icon": "bi-diagram-3",
+                    "icon_color": "#0284c7",
+                    "badge": "",
+                    "url": "#",
+                    "views": 510
+                },
+                {
+                    "nama": "Pengembangan Minat & Bakat",
+                    "deskripsi": "Kegiatan bidang olahraga, seni, dan keagamaan.",
+                    "icon": "bi-trophy",
+                    "icon_color": "#0284c7",
+                    "badge": "",
+                    "url": "#",
+                    "views": 420
+                },
+                {
+                    "nama": "Prestasi & Kompetisi",
+                    "deskripsi": "Dukungan pendaftaran & pendanaan lomba mahasiswa.",
+                    "icon": "bi-award",
+                    "icon_color": "#0284c7",
+                    "badge": "",
+                    "url": "#",
+                    "views": 780
+                },
+                {
+                    "nama": "Kesejahteraan & Konseling",
+                    "deskripsi": "Layanan konseling mahasiswa, bantuan sosial, dan asrama.",
+                    "icon": "bi-heart-pulse",
+                    "icon_color": "#0284c7",
+                    "badge": "",
+                    "url": "#",
+                    "views": 340
+                },
+                {
+                    "nama": "Karir & Info Magang",
+                    "deskripsi": "Lowongan kerja, info magang, dan pelatihan siap kerja.",
+                    "icon": "bi-briefcase",
+                    "icon_color": "#0284c7",
+                    "badge": "Updated",
+                    "url": "#",
+                    "views": 1950
+                },
+                {
+                    "nama": "Tracer Study & Alumni",
+                    "deskripsi": "Pendataan alumni, jejaring lulusan, dan statistik alumni.",
+                    "icon": "bi-person-lines-fill",
+                    "icon_color": "#0284c7",
+                    "badge": "",
+                    "url": "#",
+                    "views": 1120
+                },
+                {
+                    "nama": "Administrasi Kegiatan",
+                    "deskripsi": "Pengajuan izin kegiatan, pengajuan dana, dan LPK.",
+                    "icon": "bi-file-earmark-check",
+                    "icon_color": "#0284c7",
+                    "badge": "",
+                    "url": "#",
+                    "views": 620
+                }
+            ]
+        },
+        {
+            "nama_kategori": "3. BAGIAN KEUANGAN",
+            "deskripsi_kategori": "Mengelola semua urusan uang & anggaran di kampus",
+            "icon_kategori": "bi-wallet2",
+            "aplikasi": [
+                {
+                    "nama": "Pembayaran UKT \/ SPP",
+                    "deskripsi": "Cek tagihan, pembayaran online, dan riwayat bukti bayar.",
+                    "icon": "bi-credit-card",
+                    "icon_color": "#d97706",
+                    "badge": "Mandatori",
+                    "url": "#",
+                    "views": 4120
+                },
+                {
+                    "nama": "Penyusunan Anggaran (RKAT)",
+                    "deskripsi": "Perencanaan anggaran pendapatan & pengeluaran kampus.",
+                    "icon": "bi-calculator",
+                    "icon_color": "#d97706",
+                    "badge": "Internal",
+                    "url": "#",
+                    "views": 210
+                },
+                {
+                    "nama": "Pembukuan & Laporan Keuangan",
+                    "deskripsi": "Pencatatan kas masuk-keluar & laporan bulanan.",
+                    "icon": "bi-journal-check",
+                    "icon_color": "#d97706",
+                    "badge": "",
+                    "url": "#",
+                    "views": 340
+                },
+                {
+                    "nama": "Penggajian Dosen & Staf",
+                    "deskripsi": "Sistem penggajian, tunjangan, dan slip gaji elektronik.",
+                    "icon": "bi-cash-stack",
+                    "icon_color": "#d97706",
+                    "badge": "",
+                    "url": "#",
+                    "views": 980
+                },
+                {
+                    "nama": "LPJ & Verifikasi SPJ",
+                    "deskripsi": "Pertanggungjawaban keuangan, audit, dan verifikasi SPJ.",
+                    "icon": "bi-check2-square",
+                    "icon_color": "#d97706",
+                    "badge": "",
+                    "url": "#",
+                    "views": 450
+                },
+                {
+                    "nama": "Pengadaan Barang & Jasa",
+                    "deskripsi": "Pembayaran fasilitas, sarana, dan prasarana kampus.",
+                    "icon": "bi-box-seam",
+                    "icon_color": "#d97706",
+                    "badge": "",
+                    "url": "#",
+                    "views": 290
+                },
+                {
+                    "nama": "Perpajakan & Laporan Pelaporan",
+                    "deskripsi": "Pelaporan pajak institusi dan pertanggungjawaban pajak.",
+                    "icon": "bi-receipt",
+                    "icon_color": "#d97706",
+                    "badge": "",
+                    "url": "#",
+                    "views": 180
+                }
+            ]
+        },
+        {
+            "nama_kategori": "4. ADMINISTRASI UMUM",
+            "deskripsi_kategori": "Pusat pengelolaan operasional harian kampus \u2014 persuratan, perlengkapan & kepegawaian",
+            "icon_kategori": "bi-building-gear",
+            "aplikasi": [
+                {
+                    "nama": "E-Office Persuratan",
+                    "deskripsi": "Surat masuk, surat keluar, dan pengarsipan dokumen resmi.",
+                    "icon": "bi-envelope-paper",
+                    "icon_color": "#4f46e5",
+                    "badge": "E-Office",
+                    "url": "#",
+                    "views": 1840
+                },
+                {
+                    "nama": "Kerumahtanggaan Kampus",
+                    "deskripsi": "Layanan kebersihan, keamanan, dan ketertiban gedung.",
+                    "icon": "bi-shield-check",
+                    "icon_color": "#4f46e5",
+                    "badge": "",
+                    "url": "#",
+                    "views": 230
+                },
+                {
+                    "nama": "Aset & Inventaris Kampus",
+                    "deskripsi": "Pencatatan barang, perlengkapan, dan perawatan fasilitas.",
+                    "icon": "bi-building",
+                    "icon_color": "#4f46e5",
+                    "badge": "",
+                    "url": "#",
+                    "views": 510
+                },
+                {
+                    "nama": "Kepegawaian Non-Dosen",
+                    "deskripsi": "Administrasi staf, absensi harian, dan pelatihan SDM.",
+                    "icon": "bi-person-gear",
+                    "icon_color": "#4f46e5",
+                    "badge": "",
+                    "url": "#",
+                    "views": 760
+                },
+                {
+                    "nama": "Pelayanan Informasi & Guest Book",
+                    "deskripsi": "Penerimaan tamu resmi dan PPID \/ informasi publik.",
+                    "icon": "bi-info-circle",
+                    "icon_color": "#4f46e5",
+                    "badge": "",
+                    "url": "#",
+                    "views": 390
+                },
+                {
+                    "nama": "Perlengkapan & Operasional",
+                    "deskripsi": "Pengelolaan ATK, pemeliharaan air, listrik, & kendaraan dinas.",
+                    "icon": "bi-tools",
+                    "icon_color": "#4f46e5",
+                    "badge": "",
+                    "url": "#",
+                    "views": 310
+                },
+                {
+                    "nama": "Hukum & Peraturan Kampus",
+                    "deskripsi": "Penyusunan SK, Peraturan Direktur, dan produk hukum.",
+                    "icon": "bi-bank",
+                    "icon_color": "#4f46e5",
+                    "badge": "",
+                    "url": "#",
+                    "views": 240
+                }
+            ]
+        },
+        {
+            "nama_kategori": "5. PERPUSTAKAAN",
+            "deskripsi_kategori": "Pusat sumber belajar & referensi untuk mendukung perkuliahan",
+            "icon_kategori": "bi-book-half",
+            "aplikasi": [
+                {
+                    "nama": "Katalog Koleksi Buku & Jurnal",
+                    "deskripsi": "Pencarian buku teks, referensi, jurnal ilmiah, & tesis.",
+                    "icon": "bi-search",
+                    "icon_color": "#059669",
+                    "badge": "OPAC",
+                    "url": "#",
+                    "views": 1420
+                },
+                {
+                    "nama": "E-Library & Database Online",
+                    "deskripsi": "Akses jurnal elektronik, e-book, dan repositori online.",
+                    "icon": "bi-laptop",
+                    "icon_color": "#059669",
+                    "badge": "Akses 24\/7",
+                    "url": "#",
+                    "views": 2300
+                },
+                {
+                    "nama": "Sistem Peminjaman & Denda",
+                    "deskripsi": "Sistem peminjaman buku, perpanjangan mandiri, & cek denda.",
+                    "icon": "bi-journal-arrow-up",
+                    "icon_color": "#059669",
+                    "badge": "",
+                    "url": "#",
+                    "views": 810
+                },
+                {
+                    "nama": "Pemesanan Ruang Baca",
+                    "deskripsi": "Reservasi tempat belajar mandiri & ruang diskusi kelompok.",
+                    "icon": "bi-door-open",
+                    "icon_color": "#059669",
+                    "badge": "",
+                    "url": "#",
+                    "views": 491
+                },
+                {
+                    "nama": "Layanan Penelusuran Literatur",
+                    "deskripsi": "Bantuan pencarian sumber tugas akhir & penelitian.",
+                    "icon": "bi-card-heading",
+                    "icon_color": "#059669",
+                    "badge": "",
+                    "url": "#",
+                    "views": 320
+                },
+                {
+                    "nama": "Repository Skripsi & TA",
+                    "deskripsi": "Arsip karya tulis ilmiah & skripsi mahasiswa.",
+                    "icon": "bi-archive",
+                    "icon_color": "#059669",
+                    "badge": "E-Print",
+                    "url": "#",
+                    "views": 3111
+                },
+                {
+                    "nama": "Majalah & Jurnal Ilmiah",
+                    "deskripsi": "Koleksi terbitan berkala dan artikel ilmiah terbaru.",
+                    "icon": "bi-newspaper",
+                    "icon_color": "#059669",
+                    "badge": "",
+                    "url": "#",
+                    "views": 271
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "address": "Jl. R.W. Monginsidi Malalayang II, Kota Manado, Sulawesi Utara 95263",
+        "phone": "62 895-0425-2514",
+        "hero_pill": "POLKESDO Health Portal",
+        "hero_title": "Portal Poltekkes Kemenkes Manado",
+        "hero_desc": "Portal layanan digital terpadu untuk mahasiswa, dosen, dan staf poltekkes kesehatan di manado",
+        "wa_number": "6289504252514",
+        "wa_default_msg": "Halo Admin Portal Poltekkes Manado, saya butuh bantuan.",
+        "logo_poltekkes": "images\/Logo Poltekkes.jpeg",
+        "logo_blu": "images\/Logo Blu.png",
+        "logo_smart": "images\/Logo Smart.png",
+        "hero_height": "500",
+        "bg_hero": "images\/bg_hero_1789563505.jpg"
+    }
+}

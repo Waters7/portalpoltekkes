@@ -1,0 +1,46 @@
+PORTAL POLTEKKES — HASIL PERBAIKAN
+
+Lokasi aplikasi:
+X:\Dashboard Rapat\project dasboard magang
+
+CARA MENJALANKAN DI KOMPUTER INI
+1. Buka PowerShell.
+2. Jalankan perintah berikut:
+   & 'C:\laragon\bin\php\php-8.4.25-Win32-vs17-x64\php.exe' -S 127.0.0.1:8080 -t 'X:\Dashboard Rapat\project dasboard magang'
+3. Buka http://127.0.0.1:8080 di browser.
+4. Hentikan server dengan Ctrl+C di PowerShell.
+
+Aplikasi harus dibuka melalui server PHP, bukan dengan mengeklik index.php langsung.
+Tidak memerlukan database MySQL. Data tersimpan di data/portal_data.json.
+Folder data dan images harus dapat ditulis oleh proses PHP.
+Bootstrap dan ikon diambil dari CDN sehingga memerlukan koneksi internet.
+Akun bawaan dari aplikasi asli: admin / admin123 (diatur dalam login.php).
+
+PERBAIKAN
+- Membaca nama kolom data lama: deskripsi_kategori dan url.
+- Melengkapi pengaturan yang belum tersedia dengan nilai bawaan.
+- Memperbaiki kolom URL opsional pada pengumuman; tanda # tidak lagi memblokir formulir.
+- Menandai layanan tanpa URL sebagai Belum tersedia; tautan dapat diisi dari panel admin.
+- Mencegah pengiriman ulang formulir saat refresh setelah simpan/hapus.
+- Memvalidasi indeks, tanggal, URL, serta input formulir sebelum menyimpan.
+- Memvalidasi jenis, ukuran, dan hasil unggah gambar; kegagalan menampilkan pesan.
+- Mengunci transaksi penyimpanan agar pembaruan bersamaan tidak saling menimpa.
+- Menulis JSON melalui file sementara dan menjaga file lama jika penyimpanan gagal.
+- Menolak menimpa data yang rusak atau tidak ditemukan.
+- Memindahkan modal edit ke body agar tidak terpotong tabel responsif.
+- Memperbarui sesi saat login serta menangani input login yang tidak valid.
+
+PENGUJIAN
+69 pemeriksaan otomatis lulus pada PHP 8.4.25, meliputi sintaks, login/logout,
+tambah/edit/hapus, refresh, tautan lama, parameter tidak valid, pengaturan,
+unggah gambar, JSON rusak, dan 40 pembaruan dari empat proses bersamaan.
+Tidak ada warning, deprecated, atau fatal error PHP pada rangkaian pengujian.
+Pengujian menggunakan salinan sementara; data asli tidak berubah.
+Tampilan visual browser dan ketersediaan situs eksternal belum diuji.
+
+Untuk menjalankan ulang pengujian (Node.js diperlukan):
+$env:PHP_BINARY = 'C:\laragon\bin\php\php-8.4.25-Win32-vs17-x64\php.exe'
+node 'X:\Dashboard Rapat\project dasboard magang\tests\smoke.mjs'
+
+Simpan cadangan data/portal_data.json dan images sebelum penggunaan rutin.
+ZIP asli di Downloads tidak diubah.

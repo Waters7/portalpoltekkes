@@ -1,0 +1,9 @@
+*.log
+*.lock
+data/portal_*
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+!data/portal_data.json
